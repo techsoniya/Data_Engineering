@@ -59,14 +59,14 @@
 --Understood the use case of group_concat and how to use it with distinct and order by.
 
 
-SELECT 
-    sell_date,
-    COUNT(Distinct product) AS num_sold,
-    GROUP_CONCAT(
-            DISTINCT product
-            ORDER BY product
-            SEPARATOR ','
-    )AS Products
-FROM Activities
-GROUP BY sell_date
-ORDER BY sell_date;
+-- SELECT 
+--     sell_date,
+--     COUNT(Distinct product) AS num_sold,
+--     GROUP_CONCAT(
+--             DISTINCT product
+--             ORDER BY product
+--             SEPARATOR ','
+--     )AS Products
+-- FROM Activities
+-- GROUP BY sell_date
+-- ORDER BY sell_date;
