@@ -1,0 +1,199 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=0.58in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+
+\titleformat{\section}
+{\large\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titlespacing{\section}
+{0pt}{6pt}{4pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+
+{\LARGE \textbf{Soniya Vinaykumar Kambli}}
+
+\vspace{3pt}
+
+Bangalore, Karnataka, India \\
++91 7406243349 \;|\;
+\href{mailto:kamblisoniya@gmail.com}{kamblisoniya@gmail.com}
+
+\vspace{2pt}
+
+\href{https://www.linkedin.com/in/soniya-vinaykumar-kambli-0309b4237}{LinkedIn}
+\;|\;
+\href{https://github.com/techsoniya}{GitHub}
+\;|\;
+\href{https://6b07070935c8424cb04a3d741143ccbd.prod.enterapp.pro/}{Portfolio}
+
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Professional Summary}
+
+Data Engineer with 1 year of industry experience designing and implementing production-style data engineering solutions across AWS, Databricks, Snowflake, Microsoft Fabric, SQL Server, and PostgreSQL. Experienced in developing scalable ETL/ELT pipelines using Python, SQL, PySpark, dbt, and Delta Lake while applying dimensional modeling, CDC, SCD Type 1/2, and metadata-driven processing.
+
+Hands-on experience building resilient batch and incremental ingestion frameworks, implementing data quality validation, optimizing transformations, and designing analytics-ready Lakehouse and Data Warehouse architectures. Microsoft Fabric, Databricks, and Snowflake certified with strong foundations in data modeling, cloud data platforms, workflow automation, and business intelligence.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Technical Skills}
+
+\textbf{Languages:}
+Python, SQL, PySpark, Spark SQL, Bash, DAX
+
+\textbf{Databases \& Warehouses:}
+Snowflake, PostgreSQL, SQL Server, Delta Lake, Apache Iceberg
+
+\textbf{Data Engineering:}
+Apache Spark, dbt Core, Apache Kafka, SSIS, Snowpipe, Snowflake Streams, Tasks, Dynamic Tables, Stored Procedures
+
+\textbf{Cloud \& Infrastructure:}
+AWS (S3, Glue, EC2, Step Functions, SNS, IAM, VPC, Systems Manager), Microsoft Fabric, OneLake, Databricks, Docker, Git, Linux
+
+\textbf{Visualization:}
+Power BI, SSRS, Streamlit
+
+\textbf{Concepts:}
+ETL/ELT Pipelines, Lakehouse Architecture, Data Warehousing, Medallion Architecture, Star Schema, Dimensional Modeling, CDC, SCD Type 1/2, Delta MERGE, Incremental Loading, Data Validation, Query Optimization, Metadata-Driven Pipelines, REST APIs
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Professional Experience}
+
+\textbf{Endava India} \hfill Bangalore, India
+
+\textit{Junior Data Engineer} \hfill Aug 2025 -- Present
+
+\begin{itemize}[leftmargin=*,nosep]
+
+\item Engineered production-style data engineering solutions across Retail, Healthcare, Travel, Enterprise AI, and Insurance domains using AWS, Databricks, Snowflake, Microsoft Fabric, SQL Server, Python, SQL, PySpark, dbt, and Power BI.
+
+\item Designed reusable batch, bootstrap, and incremental ETL/ELT ingestion frameworks supporting CSV, JSON, JSONL, Parquet, and Excel datasets with metadata-driven configuration and schema validation.
+
+\item Developed Bronze, Silver, and Gold Medallion pipelines using Delta Lake and Apache Iceberg by implementing cleansing, standardization, deduplication, enrichment, and business-rule transformations.
+
+\item Implemented Change Data Capture (CDC), SCD Type 1/2 processing, Delta MERGE operations, late-arriving data handling, audit logging, reconciliation, reject handling, replay processing, and idempotent pipeline execution.
+
+\item Automated data workflows using Snowpipe, Snowflake Streams and Tasks, AWS Step Functions, AWS Systems Manager, Databricks Workflows, SSIS packages, and Amazon SNS notifications.
+
+\item Designed dimensional models, fact tables, conformed dimensions, Star Schemas, semantic views, and analytics-ready Gold datasets supporting Power BI dashboards and conversational analytics applications.
+
+\item Developed synthetic data generation utilities using Python and Faker to simulate bootstrap, incremental, duplicate, missing-value, schema-error, and invalid-data scenarios for pipeline validation and testing.
+
+\item Investigated and resolved complex pipeline failures involving timestamp sequencing, schema evolution, Spark dependency conflicts, Docker networking, OAuth authentication, Apache Iceberg configuration, and metadata persistence.
+
+\item Authored architecture documentation, deployment guides, operational runbooks, troubleshooting procedures, and data flow documentation to improve maintainability and onboarding.
+
+\end{itemize}
+
+\vspace{4pt}
+
+\textit{Data Engineering Intern} \hfill Jan 2025 -- Apr 2025
+
+\begin{itemize}[leftmargin=*,nosep]
+
+\item Assisted in developing ETL workflows using SQL Server, SSIS, SSRS, SQL, and Python for healthcare data processing.
+
+\item Built SQL queries, reporting datasets, and SSRS reports while participating in data validation, cleansing, and reconciliation activities.
+
+\item Collaborated with senior engineers to troubleshoot ETL failures, optimize SQL queries, and document pipeline execution processes.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Selected Data Engineering Projects}
+
+\textbf{Enterprise AWS Lakehouse Accelerator}
+\hfill
+{\small AWS | Spark | Iceberg | dbt | PostgreSQL}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Architected a production-style AWS Lakehouse integrating 15+ AWS and open-source components including S3, Glue, Spark, Apache Iceberg, Apache Polaris, Trino, dbt Core, PostgreSQL, Docker, and EC2.
+\item Built reusable ingestion pipelines supporting batch and incremental processing, schema evolution, metadata enrichment, and data quality validation for CSV, JSONL, and Parquet datasets.
+\item Automated end-to-end orchestration using AWS Step Functions, Systems Manager, dbt, and Amazon SNS while implementing persistent Iceberg metadata storage and least-privilege IAM security.
+\end{itemize}
+
+\vspace{3pt}
+
+\textbf{Retail360 Demand \& Customer Intelligence Platform}
+\hfill
+{\small Snowflake | Python | SQL | Power BI}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Designed a six-layer Snowflake data platform supporting sales, inventory, customers, products, promotions, and employee analytics.
+\item Implemented 23 automated Snowpipe ingestion pipelines with Streams, Tasks, Dynamic Tables, Stored Procedures, CDC, SCD Type 1/2 processing, audit logging, and reject handling.
+\item Built Star Schema data marts, semantic views, Power BI dashboards, and Cortex Analyst conversational analytics for business reporting.
+\end{itemize}
+
+\vspace{3pt}
+
+\textbf{Enterprise AI Agent Observability Lakehouse}
+\hfill
+{\small Databricks | PySpark | Delta Lake}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Developed a metadata-driven PySpark ingestion framework supporting bootstrap and incremental loading with checksum validation, schema enforcement, duplicate detection, and Delta MERGE operations.
+\item Implemented governance capabilities including CDC readiness, audit logging, reconciliation, quarantine handling, replay processing, and idempotent pipeline execution.
+\item Engineered curated analytical datasets for agent performance, governance, cost monitoring, prompt quality, and human-review analytics.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Education}
+
+\textbf{Bachelor of Engineering (Information Science \& Engineering)}
+\hfill
+2021 -- 2025
+
+Sahyadri College of Engineering \& Management
+
+CGPA: 8.71/10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Certifications}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Databricks Certified Data Engineer Associate (2026)
+\item Databricks Certified Data Analyst Associate (2026)
+\item Microsoft Certified: Fabric Data Engineer Associate (DP-700)
+\item Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)
+\item Snowflake SnowPro Associate Certification
+\end{itemize}
+
+\end{document}
