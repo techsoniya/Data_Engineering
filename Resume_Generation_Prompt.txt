@@ -51,3 +51,20 @@ I want you to generate a clean, ATS-optimized, modern LaTeX resume targeting Ent
 
 **6. Certifications (If any)**
 * [e.g., AWS Certified Developer / Cloud Practitioner, Databricks Associate, Snowflake Core]
+
+
+Full Name Soniya Vinaykumar Kambli
+Email kamblisoniya@gmail.com
+Phone Number 7406243349
+Location Bangalore. Karnataka, India
+LinkedIn URL www.linkedin.com/in/soniya-vinaykumar-kambli-0309b4237
+GitHub URL https://github.com/techsoniya
+Portfolio URL (if any) https://6b07070935c8424cb04a3d741143ccbd.prod.enterapp.pro/
+Company Name (Endava India)
+Employment Dates 
+
+Junior Data Engineer 4-Aug-2025 to present -Endava India
+Intern Jan 2025 - Apr 2025-Endava India
+Degree specialization (Information Science & Engineering?)
+GPA 8.71
+Once you provide those, I'll generate a resu
