@@ -1,0 +1,53 @@
+Act as a Principal Data Engineer and Senior Technical Recruiter who specializes in hiring Data Engineers with 0–2 years of experience. 
+
+I want you to generate a clean, ATS-optimized, modern LaTeX resume targeting Entry-to-Junior Data Engineer roles (0–2 years of experience).
+
+### Core Guidelines & Tone:
+1. **Targeting Junior Data Engineer Expectations:** Frame my project and job experience around key DE expectations for 0–2 YOE: write clean Python/SQL, design resilient data pipelines (ETL/ELT), understand basic data modeling (Star Schema, Normalization), optimize query performance, and handle data quality/validation.
+2. **Action & Impact (X-Y-Z Formula):** Rewrite my raw experience bullet points using strong action verbs (e.g., *Architected, Ingested, Optimized, Pipeline, Automated*) and quantify results using metrics like query execution time reduced, throughput increased, data latency lowered, or cost savings.
+3. **LaTeX Requirements:**
+   * Use standard ATS-friendly packages (`geometry`, `hyperref`, `enumitem`, `titlesec`, `xcolor`).
+   * Must compile cleanly out-of-the-box in Overleaf (pdfLaTeX).
+   * Fit everything precisely onto a single page with clean margins (0.5 to 0.75 in).
+   * Include active hyperlinks for Email, LinkedIn, GitHub, and Portfolio.
+4. **Technical Skills Categorization:** Organize my skills clearly into logical DE categories (e.g., *Languages, Databases & Warehouses, Big Data & Orchestration, Cloud & DevOps, Data Modeling/Tools*).
+
+---
+
+### Instructions for Output:
+* First, provide the complete, ready-to-compile LaTeX code inside a single code block.
+* Second, right below the code, list 3 to 5 key technical interview questions I am likely to be asked based directly on the bullet points you created for me.
+
+---
+
+### My Information:
+
+**1. Contact Information**
+* Name: 
+* Location: 
+* Email: 
+* Phone: 
+* LinkedIn / GitHub / Portfolio: 
+
+**2. Core Technical Skills**
+* Programming Languages: [e.g., Python, SQL, Scala, Bash]
+* Databases & Warehouses: [e.g., PostgreSQL, Snowflake, BigQuery, Redshift, MySQL]
+* Data Engineering & Orchestration: [e.g., Apache Airflow, PySpark, dbt, Pandas, Kafka]
+* Cloud & Infrastructure: [e.g., AWS (S3, Lambda, Glue, EC2), GCP, Azure, Docker, Git]
+* Concepts: [e.g., Data Warehousing, Dimensional Modeling (Star Schema), ETL/ELT Pipelines, Query Optimization, REST APIs]
+
+**3. Work Experience (1 Year Experience)**
+* [Company Name] | Junior Data Engineer / Analyst | [Dates]
+  * Raw description of what you worked on: [Insert raw notes, tools used, queries written, pipelines built, databases handled, or bugs fixed]
+
+**4. Key Projects (Crucial for 0–2 YOE)**
+* [Project 1 Title] | [Technologies Used]
+  * Raw notes on what you built: [e.g., Built an end-to-end Airflow pipeline to ingest API data into Postgres/Snowflake and visualized in Metabase]
+* [Project 2 Title] | [Technologies Used]
+  * Raw notes on what you built: [e.g., PySpark job to clean 10GB dataset and store in Parquet format on AWS S3]
+
+**5. Education**
+* [Degree & Major] | [University] | [Graduation Year] | [GPA/Relevant Coursework if applicable]
+
+**6. Certifications (If any)**
+* [e.g., AWS Certified Developer / Cloud Practitioner, Databricks Associate, Snowflake Core]
