@@ -56,3 +56,13 @@ CASE
     ELSE ('f')
 END
 )
+-- another way
+UPDATE Salary
+SET sex=
+(   
+    CASE
+        WHEN sex='m' THEN 'f'  
+        ELSE 'm'
+    END 
+)
+WHERE 1=1;
