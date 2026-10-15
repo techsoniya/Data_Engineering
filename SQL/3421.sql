@@ -64,7 +64,7 @@
 -- Student 103 in Math: Only one exam, not eligible
 -- Student 104 in Physics: Improved from 75 to 85
 -- Result table is ordered by student_id, subject.
-
+--solution
 
 WITH ranked AS (
     SELECT
